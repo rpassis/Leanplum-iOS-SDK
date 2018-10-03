@@ -32,7 +32,7 @@
 #import "LeanplumReachability+Category.h"
 #import "Leanplum+Extensions.h"
 #import "LPActionManager.h"
-#import "LPCountaggregator.h"
+#import "LPCountAggregator.h"
 #import "LPFeatureFlagManager.h"
 #import "Constants.h"
 #import "LPRegisterDevice.h"
