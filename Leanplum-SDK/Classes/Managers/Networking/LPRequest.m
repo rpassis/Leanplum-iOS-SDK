@@ -41,6 +41,7 @@
         _httpMethod = httpMethod;
         _apiMethod = apiMethod;
         _params = params;
+        _requestId = [[NSUUID UUID] UUIDString];
     }
     return self;
 }

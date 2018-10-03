@@ -34,6 +34,7 @@
 @property (atomic) BOOL sent;
 @property (nonatomic, copy) LPNetworkResponseBlock responseBlock;
 @property (nonatomic, copy) LPNetworkErrorBlock errorBlock;
+@property (nonatomic, strong) NSString *requestId;
 
 + (LPRequest *)get:(NSString *)apiMethod params:(NSDictionary *)params;
 + (LPRequest *)post:(NSString *)apiMethod params:(NSDictionary *)params;
